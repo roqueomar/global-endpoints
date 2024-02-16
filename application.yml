@@ -1,0 +1,22 @@
+spring:
+  application:
+    endpoints:
+      order_paypal:
+        base: http://localhost:7120/api/v1/order-paypal
+        cancel_order_by_customer: http://localhost:7120/api/v1/order-paypal/cancel-order_by-customer
+      student:
+        base: http://localhost:7110/api/v1/student/
+        findAllProfilesByIdentityIds: http://localhost:7110/api/v1/student/findAllProfilesByIdentityId/
+      agenda:
+        base: http://localhost:7093/api/v1/agenda/
+        findAgendasForStudentInDateRange: http://localhost:7093/api/v1/agenda/findAgendasForStudentInDateRange/
+      identity:
+        base: http://localhost:7083/api/v1/identity/
+        findbyidentityids: http://localhost:7083/api/v1/identity/ids/
+        findbyuserid: http://localhost:7083/api/v1/identity/findByUserId/
+      album:
+        base: http://localhost:7052/api/v1/album/
+        #findbyidentityid: http://localhost:7052/api/v1/album/find-by-identityId/
+        findAvatar: http://localhost:7052/api/v1/file/find-avatar/
+      user:
+        base: http://localhost:7032/api/v1/user/
