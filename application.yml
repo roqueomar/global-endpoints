@@ -3,7 +3,8 @@ spring:
     endpoints:
       order_paypal:
         base: http://localhost:7120/api/v1/order-paypal
-        cancel_order_by_customer: http://localhost:7120/api/v1/order-paypal/cancel-order-by-student
+        #cancel_order_by_customer: http://localhost:7120/api/v1/order-paypal/cancel-order-by-student
+        find_order_not_excluded: http://localhost:7062/api/v1/order-paypal/find-order-not-excluded
       student:
         base: http://localhost:7110/api/v1/student/
         findAllProfilesByIdentityIds: http://localhost:7110/api/v1/student/findAllProfilesByIdentityId/
