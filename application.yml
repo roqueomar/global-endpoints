@@ -17,7 +17,6 @@ spring:
           findbyuserid: http://localhost:7083/api/v1/identity/findByUserId/
         album:
           base: http://localhost:7052/api/v1/album/
-          #findbyidentityid: http://localhost:7052/api/v1/album/find-by-identityId/
           findAvatar: http://localhost:7052/api/v1/file/find-avatar/
         user:
           base: http://localhost:7032/api/v1/user/
