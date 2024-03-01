@@ -1,7 +1,7 @@
 spring:
   application:
     endpoints:
-      api:
+      api-v2:
         order_paypal:
           base: http://localhost:7120/api/v1/order-paypal
           find_order_not_excluded: http://localhost:7062/api/v1/order-paypal/find-order-not-excluded
